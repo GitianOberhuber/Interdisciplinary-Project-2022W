@@ -1,5 +1,6 @@
-This repository contains code produced as part of the lecture Interdisciplinary Project in Data Science (2022W) at Vienna University of Technology. The project reconstructs historical valence-scores based on historical word-embeddings, using a regression model trained on contemporary valence-scores and contemporary word-embeddings. The suitability of these reconstructed valence-scores and the historical word-embeddings as an indicator for word-diversification is then investigated, with results suggesting that they are not suitable. More details can be found in the report *report.pdf*.
+This repository contains code produced as part of the lecture Interdisciplinary Project in Data Science (2022W) at Vienna University of Technology. The project reconstructs historical valence-scores based on historical word-embeddings, using a regression model trained on contemporary valence-scores and contemporary word-embeddings. The suitability of these reconstructed valence-scores and the historical word-embeddings as an indicator for word-diversification is then investigated, with results suggesting that they are not suitable. More details can be found in the report **report.pdf**.
 
+The results produced during the project for a neighborhood size of k=30 and starting from 1800 can be explored using explore.ipynb and results_k_30.pkl, meaning it is possible to run this with only Jupyter Notebook and the dependencies in explore.ipynb. If you want to execute the code e.g for other parameters, the external files have to be downloaded.
 
 **Repository structure**
 * run.sh: Calls the python files, executing all code needed for creating the output needed for the exploration notebook.
@@ -11,7 +12,7 @@ This repository contains code produced as part of the lecture Interdisciplinary 
 * representations, vecanalysis, googlengram: Code for embedding-space alignment, copied and uncleanly adapted for Python 3 from https://github.com/williamleif/histwords. 
 * figures: Contains figures used for the report
 
-
+**External Files**
 Due to filesize limits, word-embeddings need to be download from their original sources:
 * Historical word-embeddings (filenames: 1800-vocab.pkl, 1800-w.npy, 1810-vocab.pkl, ...) : https://nlp.stanford.edu/projects/histwords/
 * Contemporary Geometry of Culture word-embeddings (filename: US_Ngrams_2000_12.csv): https://knowledgelab.github.io/GeometryofCulture/
